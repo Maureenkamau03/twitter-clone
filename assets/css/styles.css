@@ -19,23 +19,65 @@
 		display: flex;
 	}
 }
-x .container {
+.container {
 	display: flex;
 	width: 80%;
 }
 .sidebar {
 	width: 33.33%;
+	position: relative;
+	height: 100vh;
 	/* background-color: red; */
 }
 .button-fcn {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 20px;
 	/* background-color: aqua; */
 	margin-top: 10px;
-	border-radius: 30%;
+	border-radius: 50px;
 	border: none;
+	background-color: inherit;
+	font-size: 20px;
+	padding: 10px;
+	padding-right: 30px;
+}
+.button-fcn:hover {
+	background-color: lightgrey;
 }
 .logo {
-	color: rgb(16, 100, 156);
+	margin-top: 20px;
+	color: #1e9bf0;
+	font-size: 30px;
+}
+/* .tweetbtn {
+	border-top: 100px;
+} */
+.tweet {
+	background-color: #1e9bf0;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	padding: 20px 50px;
+	font-size: 20px;
+	width: 60%;
+	margin-top: 30px;
+}
+.tweet:hover {
+	background-color: #198cd8;
+}
+.floatingprofile {
+	position: absolute;
+	bottom: 0px;
+}
+.floating-prof-pic {
+	height: 70px;
+	width: 70px;
+}
+.floating-prof-pic img {
+	height: 45px;
+	width: 45px;
+	border-radius: 100%;
+	object-fit: cover;
 }
