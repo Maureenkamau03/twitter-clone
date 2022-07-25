@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@media (min-width: 1290px) {
+	.prime-container {
+		max-width: 1700px;
+		/* background-color: blueviolet; */
+		height: 100vh;
+		margin: auto;
+	}
+}
+@media (min-width: 1290px) {
+	.container {
+		max-width: 1390px;
+		/* background-color: blue; */
+		height: 100vh;
+		margin: auto;
+		display: flex;
+	}
+}
+x .container {
+	display: flex;
+	width: 80%;
+}
+.sidebar {
+	width: 33.33%;
+	/* background-color: red; */
+}
+.button-fcn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* background-color: aqua; */
+	margin-top: 10px;
+	border-radius: 30%;
+	border: none;
+}
+.logo {
+	color: rgb(16, 100, 156);
+}
