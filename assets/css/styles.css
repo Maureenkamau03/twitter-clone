@@ -24,10 +24,14 @@
 	width: 80%;
 }
 .sidebar {
-	width: 33.33%;
+	width: 19%;
 	position: relative;
 	height: 100vh;
+	margin-left: 60px;
 	/* background-color: red; */
+}
+.menu-text-active {
+	font-weight: bold;
 }
 .button-fcn {
 	display: flex;
@@ -44,12 +48,19 @@
 	padding-right: 30px;
 }
 .button-fcn:hover {
-	background-color: lightgrey;
+	background-color: #e7e7e8;
 }
 .logo {
 	margin-top: 20px;
 	color: #1e9bf0;
 	font-size: 30px;
+	border: none;
+	border-radius: 100%;
+	padding: 5px;
+	background-color: inherit;
+}
+.logo:hover {
+	background-color: #a0c9f7;
 }
 /* .tweetbtn {
 	border-top: 100px;
@@ -59,9 +70,9 @@
 	color: white;
 	border: none;
 	border-radius: 50px;
-	padding: 20px 50px;
+	padding: 10px 50px;
 	font-size: 20px;
-	width: 60%;
+	width: 80%;
 	margin-top: 30px;
 }
 .tweet:hover {
@@ -70,14 +81,123 @@
 .floatingprofile {
 	position: absolute;
 	bottom: 0px;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	border: none;
+	background-color: inherit;
+	justify-content: space-between;
+	gap: 10px;
+	padding-left: 15px;
+	padding-bottom: 0px !important;
+	box-sizing: border-box;
 }
-.floating-prof-pic {
+.floatingprofile:hover {
+	background-color: #e7e7e8;
+}
+/* .floating-prof-pic {
 	height: 70px;
 	width: 70px;
-}
+	margin-top: 20px;
+} */
 .floating-prof-pic img {
 	height: 45px;
 	width: 45px;
 	border-radius: 100%;
 	object-fit: cover;
+}
+.username p {
+	color: grey;
+}
+.posts-feed {
+	width: 44%;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+.headerfeed {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* background-color: red; */
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0.932);
+	padding: 0 15px;
+}
+.createpost {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	border-bottom: 1px solid lightgray;
+	margin-top: 18px;
+	padding-bottom: 10px;
+}
+.createpost-profile img {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	object-fit: cover;
+	margin-left: 15px;
+}
+
+.material-symbols-rounded {
+	font-variation-settings: "FILL" 0, "wght" 100, "GRAD" -25, "opsz" 48;
+}
+.createpost-icons .icon-btn {
+	color: #28a0f1;
+	background-color: inherit;
+	border: none;
+	border-radius: 100%;
+	padding: 5px;
+	/* font-weight: 200; */
+}
+.createpost-icons .icon-btn:hover {
+	background-color: #e9f5fd;
+}
+.createpost-icons {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 200px;
+	align-items: center;
+	margin-top: 25px;
+
+	/* background-color: red; */
+}
+.createpost-input input {
+	font-size: 17px;
+	/* background-color: red; */
+}
+input {
+	border: none;
+}
+input:focus {
+	border: none;
+}
+.whatshappening {
+	display: block;
+	padding-top: 20px;
+}
+/* .createpost-btn {
+	background-color: #1e9bf0;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	font-size: 20px;
+	width: 80%;
+	margin-top: 30px;
+} */
+.createpost-btn {
+	background-color: #1e9bf0;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	font-size: 15px;
+	padding: 10px 20px;
+}
+#location {
+	color: #c7e6fb;
+}
+.createpost-icons .icon-btn #location:hover {
+	background-color: none !important;
 }

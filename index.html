@@ -19,16 +19,16 @@
     <div class="prime-container">
 		<div class="container">
 			<div class="sidebar">
-				<div class="logo">
+				<button class="logo">
 					<i class="fa-brands fa-twitter"></i>
-				</div>
+        </button>
 				<div class="menus">
 					<div class="each-menu">
 						<button class="button-fcn">
 							<span class="material-symbols-rounded icon-active">
 								house_with_shield
 							</span>
-							<div class="menu-text"> Home</div>
+							<div class="menu-text-active"> Home</div>
 						</button>
 					</div>
 					
@@ -91,19 +91,67 @@
         <div class="tweetbtn">
           <button class="tweet">Tweet</button>
         </div>
-        <div class="floatingprofile">
+        <button class="floatingprofile">
           <div class="floating-prof-pic">
             <img src="./assets/images/profile.avif" alt="" srcset="">
           </div>
           <div class="username">
+            <h4>Maureen Kamau</h4>
+            <p>@Maureen20513573</p>
+          </div>
+          <div class="moreprofile">
+            <span class="material-symbols-rounded">
+              more_horiz
+              </span>
+          </div>
+
+        </button>
+			</div>
+		
+		</div>
+    <div class="posts-feed">
+      <div class="headerfeed">
+        <h2>Home</h2>
+        <span class="material-symbols-rounded">
+          auto_awesome
+          </span>
+      </div>
+      <div class="createpost">
+        <div class="createpost-profile">
+          <img src="./assets/images/profile.avif" alt="" srcset="">
+
+        </div>
+        <div class="whatshappening">
+          <div class="createpost-input"><input type="text" name="post" id="post" placeholder="What's happening?"></div>
+          <div class="createpost-icons">
+            <div class="icons">
+            <button class="icon-btn"><span class="material-symbols-rounded">
+              wallpaper
+              </span></button>
+            <button class="icon-btn"> <span class="material-symbols-rounded">
+                gif_box
+                </span>  </button>
+            <button class="icon-btn"><span class="material-symbols-rounded">
+                sort
+                </span></button>
+            <button class="icon-btn"><span class="material-symbols-rounded">
+                  mood
+                  </span></button>
+            <button class="icon-btn"><span class="material-symbols-rounded">
+                    pending_actions
+                    </span>  </button>    
+            <button class="icon-btn" id="location"><span class="material-symbols-rounded">
+                    location_on
+                    </span></button></div>
             
+            <div class="createpostbutton-div"><button class="createpost-btn">Tweet</button></div>
           </div>
 
         </div>
-			</div>
-			<div class="posts-feed"></div>
-			<div class="trends"></div>
-		</div>
+        
+      </div>
+    </div>
+    <div class="trends"></div>
   </div>
 	</body>
 </html>
