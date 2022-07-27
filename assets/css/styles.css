@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 @media (min-width: 1290px) {
 	.prime-container {
@@ -251,6 +252,7 @@ input:focus {
 	/* background-color: yellow; */
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 87%;
 }
 .iconsretweetand-like {
@@ -258,7 +260,7 @@ input:focus {
 	border: none;
 	padding: 5px;
 	background-color: inherit;
-	color: #e1eef6;
+	color: lightgray;
 }
 .iconsretweetand-like:hover {
 	background-color: #e1eef6;
@@ -269,4 +271,14 @@ input:focus {
 }
 .recentpost:hover {
 	background-color: #f7f7f7;
+}
+.caption {
+	margin-bottom: 10px;
+}
+.encloseicons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: gray;
+	font-size: 20pxs;
 }
