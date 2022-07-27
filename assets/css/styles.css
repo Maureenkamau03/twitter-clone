@@ -77,6 +77,7 @@
 	font-size: 20px;
 	width: 80%;
 	margin-top: 30px;
+	cursor: pointer;
 }
 .tweet:hover {
 	background-color: #198cd8;
@@ -160,11 +161,12 @@
 	border: none;
 	border-radius: 100%;
 	padding: 5px;
-	/* font-weight: 200; */
+	font-weight: 50;
 }
 .createpost-icons .icon-btn:hover {
 	background-color: #e9f5fd;
 }
+
 .createpost-icons {
 	width: 100%;
 	display: flex;
@@ -183,7 +185,7 @@ input {
 	border: none;
 }
 input:focus {
-	border: none;
+	outline: none;
 }
 .whatshappening {
 	display: block;
@@ -191,7 +193,7 @@ input:focus {
 }
 
 .createpost-btn {
-	background-color: #1e9bf0;
+	background-color: #8ecdf8;
 	border-radius: 50px;
 	border: none;
 	color: white;
@@ -271,7 +273,7 @@ input:focus {
 .iconsretweetand-like img {
 	width: 25px;
 	height: 25px;
-	color: gray;
+	outline-color: gray;
 }
 .iconsretweetand-like:hover {
 	background-color: #e1eef6;
@@ -306,6 +308,11 @@ input:focus {
 	border-radius: 10px;
 }
 .nameandtime img {
+	/* margin-top: 20px; */
 	width: 25px;
 	height: 25px;
+}
+div,
+button {
+	cursor: pointer;
 }
