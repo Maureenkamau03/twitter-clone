@@ -30,6 +30,9 @@
 	position: relative;
 	height: 100vh;
 	margin-left: 60px;
+	/* position: fixed;
+	top: 0;
+	left: 19%; */
 	/* background-color: red; */
 }
 .menu-text-active {
@@ -117,7 +120,23 @@
 	width: 44%;
 	border-left: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
+	/* padding-right: 20px; */
+
+	overflow: scroll;
+	/*-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+	scrollbar-width: none; */
+	/* overflow-y: hidden; */
+	/* overflow-x: hidden; */
 }
+
+/* .post-feed::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+.post-feed::-webkit-scrollbar {
+	display: none;
+} */
 .headerfeed {
 	position: fixed;
 	display: flex !important;
