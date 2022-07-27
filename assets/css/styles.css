@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
 }
 @media (min-width: 1290px) {
 	.prime-container {
@@ -47,6 +48,7 @@
 	font-size: 20px;
 	padding: 10px;
 	padding-right: 30px;
+	cursor: pointer;
 }
 .button-fcn:hover {
 	background-color: #e7e7e8;
@@ -116,7 +118,7 @@
 	border-right: 1px solid lightgrey;
 }
 .headerfeed {
-	/* position: fixed; */
+	position: fixed;
 	display: flex !important;
 	align-items: center;
 	justify-content: space-between;
@@ -133,6 +135,7 @@
 	border-bottom: 1px solid lightgray;
 	margin-top: 18px;
 	padding-bottom: 10px;
+	padding-top: 2rem;
 }
 .createpost-profile img {
 	height: 50px;
@@ -254,13 +257,21 @@ input:focus {
 	justify-content: space-between;
 	align-items: center;
 	width: 87%;
+	margin-bottom: 10px;
 }
 .iconsretweetand-like {
 	border-radius: 100%;
 	border: none;
 	padding: 5px;
 	background-color: inherit;
-	color: lightgray;
+	color: gray;
+	font-weight: 100;
+	/* padding-bottom: 10px; */
+}
+.iconsretweetand-like img {
+	width: 25px;
+	height: 25px;
+	color: gray;
 }
 .iconsretweetand-like:hover {
 	background-color: #e1eef6;
@@ -280,5 +291,21 @@ input:focus {
 	align-items: center;
 	justify-content: space-between;
 	color: gray;
-	font-size: 20pxs;
+	font-size: 10px;
+}
+#favourite:hover {
+	color: #f55b87;
+}
+#favbtn:hover {
+	color: #f55b87;
+	background-color: #f7e0eb;
+}
+.imagesandvideos img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.nameandtime img {
+	width: 25px;
+	height: 25px;
 }
