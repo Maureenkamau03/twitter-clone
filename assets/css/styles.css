@@ -361,7 +361,7 @@ button {
 	/* background-color: red; */
 	width: 36%;
 	margin-left: 40px;
-	/* padding: 15px; */
+	/* margin-bottom: 20px; */
 }
 .trendsheader {
 	display: flex;
@@ -375,6 +375,7 @@ button {
 .trends-cont {
 	border-radius: 10px;
 	background-color: #f7f9f9;
+	margin-bottom: 20px;
 }
 .each-trend {
 	padding: 15px 12px;
