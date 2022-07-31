@@ -125,7 +125,7 @@
 } */
 
 .posts-feed {
-	width: 45%;
+	width: 44%;
 	border-left: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
 	/* padding-right: 20px; */
@@ -346,20 +346,10 @@ button {
 	cursor: pointer;
 }
 /* trends  */
-/* .trends-cont {
-	background-color: black;
-}
-.trends {
-	background-color: red;
-	width: 36%;
-	margin-left: 40px;
-}
-.trendsheader {
-	background-color: yellow;
-} */
+
 .trends {
 	/* background-color: red; */
-	width: 36%;
+	width: 25%;
 	margin-left: 40px;
 	/* margin-bottom: 20px; */
 }
