@@ -392,6 +392,7 @@ p {
 }
 .each-trend a {
 	text-decoration: none;
+	color: #1e9bf0;
 }
 .each-trend-pic {
 	float: left;
@@ -418,4 +419,22 @@ p {
 .each-trend img {
 	width: 20px;
 	height: 20px;
+}
+.eachfollow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.eachfollow:hover {
+	background-color: #d7d8d9;
+}
+.eachfollow img {
+	width: 20px;
+	height: 20px;
+}
+.eachfollow-pic img {
+	height: 45px;
+	width: 45px;
+	border-radius: 100%;
+	object-fit: cover;
 }
