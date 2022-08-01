@@ -376,6 +376,19 @@ button {
 .each-trend {
 	padding: 15px 12px;
 }
+.show-more {
+	padding: 15px 12px;
+	border-bottom-left-radius: 10px;
+}
+.show-more:hover {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #d7d8d9;
+}
+.show-more a {
+	text-decoration: none;
+	color: #1e9bf0;
+}
 .each-trend:hover {
 	background-color: #d7d8d9;
 }
@@ -396,10 +409,7 @@ p {
 .trends-for-you {
 	padding: 15px 12px;
 }
-.each-trend a {
-	text-decoration: none;
-	color: #1e9bf0;
-}
+
 .each-trend-pic {
 	float: left;
 }
