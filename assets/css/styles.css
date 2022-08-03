@@ -25,15 +25,19 @@
 	display: flex;
 	width: 80%;
 }
+.sidebar-container {
+	/* position: fixed; */
+	width: 25% !important;
+}
 .sidebar {
-	width: 19%;
+	width: 60%;
 	position: relative;
 	height: 100vh;
 	margin-left: 60px;
-	/* position: fixed;
-	top: 0;
-	left: 19%; */
-	/* background-color: red; */
+	position: fixed;
+	/* top: 0;
+	left: 19%; 
+	background-color: red;  */
 }
 .menu-text-active {
 	font-weight: bold;
@@ -78,7 +82,7 @@
 	border-radius: 50px;
 	padding: 10px 50px;
 	font-size: 20px;
-	width: 80%;
+	/* width: 80%; */
 	margin-top: 30px;
 	cursor: pointer;
 }
@@ -128,7 +132,8 @@
 	width: 44%;
 	border-left: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
-	height: inherit;
+	height: auto;
+	box-sizing: border-box;
 	/* padding-right: 20px; */
 
 	/* overflow: scroll; */
@@ -315,8 +320,28 @@ input:focus {
 .recentpost:hover {
 	background-color: #f7f7f7;
 }
+.nameandtime {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	/* gap: 5px; */
+	/* background-color: yellow; */
+}
+.nameandtime span {
+	margin-left: 5px;
+}
+.nameandtime p {
+	color: black;
+}
+.nameandtime img {
+	width: 20px !important;
+	height: 20px !important;
+}
 .caption {
 	margin-bottom: 10px;
+}
+.caption span {
+	color: black;
 }
 .encloseicons {
 	display: flex;
@@ -356,25 +381,28 @@ button {
 }
 .trendsheader {
 	display: flex;
-	padding: 15px 12px;
+	padding: 10px 12px;
 	padding-right: 100px;
-	gap: 30px;
+	gap: 20px;
 	border-radius: 50px;
-	background-color: #e0e4e4;
+	background-color: #f7f9f9;
 	margin-bottom: 30px;
 	margin-top: 5px;
 	position: fixed;
-	/* width: 25%; */
-	/* height: 50px; */
+	/* font-size: 35px; */
+}
+.trendsheader input {
+	font-size: 15px !important;
 }
 .trends-cont {
 	border-radius: 10px;
 	background-color: #f7f9f9;
 	margin-bottom: 20px;
-	margin-top: 70px;
+	margin-top: 65px;
 }
 .each-trend {
 	padding: 15px 12px;
+	line-height: 20px;
 }
 .show-more {
 	padding: 15px 12px;
@@ -473,5 +501,15 @@ p {
 .footerdiv {
 	margin-bottom: 100px;
 	color: #999b9c;
-	font-size: 15Fsidepx;
+	font-size: 15px;
+	line-height: 20px;
+}
+.footerdiv a {
+	color: grey;
+	text-decoration: none;
+	/* background-color: #198cd8; */
+	margin-left: 7px;
+}
+.footerdiv a:hover {
+	text-decoration: underline;
 }
